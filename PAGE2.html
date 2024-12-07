@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+</head>
+<style>
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1{
+        text-align: center;
+        background-color: white;
+    }
+    h2{
+        text-align: center;
+        background-color: white;
+        padding: 30px;
+    }
+    .header{
+        background-color: rgb(162, 240, 240);
+        color: black;
+        padding: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        background-color: white;
+    }
+
+    /* Form styling */
+    .form-container {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+    .form-container input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .form-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #0f100f;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+</style>
+
+<body>
+    <form action="PAGE2.html" method="POST">
+        <div class="header">
+            <div class="" id="myNavbar">
+                <a href="PAGE1.html" class="">Home</a> &nbsp;&nbsp;&nbsp;
+                <a href="PAGE2.html" class="">Create account</a> &nbsp;&nbsp;&nbsp;
+                <a href="PAGE3.html" class="">Log in</a> &nbsp;&nbsp;&nbsp;
+                <a href="PAGE4.html" class="">IT support</a> &nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <h1>Create Account</h1>
+        <h2>PmuMentor Account creation. Register now for Mentoring</h2>
+
+        <div class="form-container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit">Create Account</button>
+            <br><br>
+            <button type="submit">Take me to the Login page</button>
+
+        </div>
+    </form>
+</body>
+</html>
